@@ -10,6 +10,7 @@
 // Import the interfaces
 #import "IntroLayer.h"
 #import "HelloWorldLayer.h"
+#import "GameScene.h"
 
 
 #pragma mark - IntroLayer
@@ -38,7 +39,7 @@
 {
 	if( (self=[super init])) {
 
-		// ask director for the window size
+/**		// ask director for the window size
 		CGSize size = [[CCDirector sharedDirector] winSize];
 
 		CCSprite *background;
@@ -53,7 +54,8 @@
 
 		// add the label as a child to this Layer
 		[self addChild: background];
-	}
+*/
+ }
 	
 	return self;
 }
@@ -61,6 +63,6 @@
 -(void) onEnter
 {
 	[super onEnter];
-	[[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:1.0 scene:[HelloWorldLayer scene] ]];
+	[[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:1.0 scene:[GameScene node] ]];
 }
 @end
