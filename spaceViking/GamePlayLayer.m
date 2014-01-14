@@ -131,11 +131,6 @@
         id repeatRobotAnimation=[CCRepeatForever actionWithAction:robotAnimationAction];
         [animatingRobot runAction:repeatRobotAnimation];
         
-     
-        
-        
-        
-        
         
         
         [self initJoystickAndButtons];
