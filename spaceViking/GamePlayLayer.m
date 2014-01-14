@@ -106,30 +106,32 @@
         vikingSprite=[CCSprite spriteWithSpriteFrameName:@"sv_anim_1.png"];
         
         [chapter2SpriteBatchNode addChild:vikingSprite];
-        //sv_anim_1.png
-        [self addChild:chapter2SpriteBatchNode];
         
+        
+        [self addChild:chapter2SpriteBatchNode];
+
         [vikingSprite setPosition:CGPointMake(screenSize.width/2, screenSize.height*0.17f)];
         
         
-        
-        //[self addChild:vikingSprite];
-        
-        
-        CCSprite *animatingRobot=[CCSprite spriteWithFile:@"an1_anim1.png"];
+        CCSprite *animatingRobot=[CCSprite spriteWithSpriteFrameName:@"sv_anim_1.png"];
         [animatingRobot setPosition:ccp([vikingSprite position].x+50.0f, [vikingSprite position].y)];
         [self addChild:animatingRobot];
-        
+  
         CCAnimation *robotAnim=[CCAnimation animation];
-        [robotAnim addFrameWithFilename:@"an1_anim2.png"];
-        [robotAnim addFrameWithFilename:@"an1_anim3.png"];
-        [robotAnim addFrameWithFilename:@"an1_anim4.png"];
+        [robotAnim addFrame:
+         [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"sv_anim_2.png"]];
         
-        id robotAnimationAction=[CCAnimate actionWithDuration:0.5f animation: robotAnim restoreOriginalFrame:YES];
+        [robotAnim addFrame:
+         [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"sv_anim_3.png"]];
+
+        [robotAnim addFrame:
+         [[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"sv_anim_4.png"]];
+
+        id robotAnimationAction=[CCAnimate actionWithDuration:0.25f animation: robotAnim restoreOriginalFrame:NO];
         id repeatRobotAnimation=[CCRepeatForever actionWithAction:robotAnimationAction];
         [animatingRobot runAction:repeatRobotAnimation];
         
-        
+     
         
         
         

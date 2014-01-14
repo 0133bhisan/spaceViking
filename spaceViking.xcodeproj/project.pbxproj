@@ -187,10 +187,6 @@
 		F0757F7B187F4E610040CC92 /* jumpDown.png in Resources */ = {isa = PBXBuildFile; fileRef = F0757F4F187F4E610040CC92 /* jumpDown.png */; };
 		F0757F7C187F4E610040CC92 /* jumpUp-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = F0757F50187F4E610040CC92 /* jumpUp-hd.png */; };
 		F0757F7D187F4E610040CC92 /* jumpUp.png in Resources */ = {isa = PBXBuildFile; fileRef = F0757F51187F4E610040CC92 /* jumpUp.png */; };
-		F0757F7E187F4E610040CC92 /* scene1atlas.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0757F52187F4E610040CC92 /* scene1atlas.plist */; };
-		F0757F7F187F4E610040CC92 /* scene1atlas.png in Resources */ = {isa = PBXBuildFile; fileRef = F0757F53187F4E610040CC92 /* scene1atlas.png */; };
-		F0757F80187F4E610040CC92 /* scene1atlasiPhone-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0757F54187F4E610040CC92 /* scene1atlasiPhone-hd.plist */; };
-		F0757F81187F4E610040CC92 /* scene1atlasiPhone-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = F0757F55187F4E610040CC92 /* scene1atlasiPhone-hd.png */; };
 		F0757F82187F4E610040CC92 /* scene1atlasiPhone.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0757F56187F4E610040CC92 /* scene1atlasiPhone.plist */; };
 		F0757F83187F4E610040CC92 /* scene1atlasiPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = F0757F57187F4E610040CC92 /* scene1atlasiPhone.png */; };
 		F0757F84187F4E610040CC92 /* sv_anim_1.png in Resources */ = {isa = PBXBuildFile; fileRef = F0757F58187F4E610040CC92 /* sv_anim_1.png */; };
@@ -537,10 +533,6 @@
 		F0757F4F187F4E610040CC92 /* jumpDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jumpDown.png; sourceTree = "<group>"; };
 		F0757F50187F4E610040CC92 /* jumpUp-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jumpUp-hd.png"; sourceTree = "<group>"; };
 		F0757F51187F4E610040CC92 /* jumpUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jumpUp.png; sourceTree = "<group>"; };
-		F0757F52187F4E610040CC92 /* scene1atlas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = scene1atlas.plist; sourceTree = "<group>"; };
-		F0757F53187F4E610040CC92 /* scene1atlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scene1atlas.png; sourceTree = "<group>"; };
-		F0757F54187F4E610040CC92 /* scene1atlasiPhone-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "scene1atlasiPhone-hd.plist"; sourceTree = "<group>"; };
-		F0757F55187F4E610040CC92 /* scene1atlasiPhone-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scene1atlasiPhone-hd.png"; sourceTree = "<group>"; };
 		F0757F56187F4E610040CC92 /* scene1atlasiPhone.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = scene1atlasiPhone.plist; sourceTree = "<group>"; };
 		F0757F57187F4E610040CC92 /* scene1atlasiPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scene1atlasiPhone.png; sourceTree = "<group>"; };
 		F0757F58187F4E610040CC92 /* sv_anim_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sv_anim_1.png; sourceTree = "<group>"; };
@@ -1044,10 +1036,6 @@
 				F0757F34187F4E610040CC92 /* Icons */,
 				F0757F3B187F4E610040CC92 /* Intro */,
 				F0757F43187F4E610040CC92 /* Joystick */,
-				F0757F52187F4E610040CC92 /* scene1atlas.plist */,
-				F0757F53187F4E610040CC92 /* scene1atlas.png */,
-				F0757F54187F4E610040CC92 /* scene1atlasiPhone-hd.plist */,
-				F0757F55187F4E610040CC92 /* scene1atlasiPhone-hd.png */,
 				F0757F56187F4E610040CC92 /* scene1atlasiPhone.plist */,
 				F0757F57187F4E610040CC92 /* scene1atlasiPhone.png */,
 				F0757F58187F4E610040CC92 /* sv_anim_1.png */,
@@ -1209,8 +1197,6 @@
 				F0757F60187F4E610040CC92 /* background.png in Resources */,
 				F0757F5E187F4E610040CC92 /* Default.png in Resources */,
 				F0757F65187F4E610040CC92 /* Icon-Small.png in Resources */,
-				F0757F7F187F4E610040CC92 /* scene1atlas.png in Resources */,
-				F0757F7E187F4E610040CC92 /* scene1atlas.plist in Resources */,
 				F0757F63187F4E610040CC92 /* Icon-72.png in Resources */,
 				F0757F66187F4E610040CC92 /* Icon-Small@2x.png in Resources */,
 				F0757F7A187F4E610040CC92 /* jumpDown-hd.png in Resources */,
@@ -1241,7 +1227,6 @@
 				F0757F7B187F4E610040CC92 /* jumpDown.png in Resources */,
 				F0757D9D187F4D4E0040CC92 /* iTunesArtwork in Resources */,
 				F0757F82187F4E610040CC92 /* scene1atlasiPhone.plist in Resources */,
-				F0757F81187F4E610040CC92 /* scene1atlasiPhone-hd.png in Resources */,
 				F0757F6A187F4E610040CC92 /* intro2.png in Resources */,
 				F0757D96187F4D4E0040CC92 /* Icon-Small@2x.png in Resources */,
 				F0757D8E187F4D4E0040CC92 /* Default-Landscape~ipad.png in Resources */,
@@ -1249,7 +1234,6 @@
 				F0757F73187F4E610040CC92 /* handDown-hd.png in Resources */,
 				F0757F78187F4E610040CC92 /* joystickDown.png in Resources */,
 				F0757F5B187F4E610040CC92 /* Default-LandscapeRight.png in Resources */,
-				F0757F80187F4E610040CC92 /* scene1atlasiPhone-hd.plist in Resources */,
 				F0757D8C187F4D4E0040CC92 /* Default-568h@2x.png in Resources */,
 				F0757F84187F4E610040CC92 /* sv_anim_1.png in Resources */,
 				F0757F5C187F4E610040CC92 /* Default-Portrait.png in Resources */,
