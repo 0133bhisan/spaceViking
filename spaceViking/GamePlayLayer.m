@@ -132,6 +132,8 @@
         [animatingRobot runAction:repeatRobotAnimation];
         
         
+        
+        
         [self initJoystickAndButtons];
         [self scheduleUpdate];
         if (UI_USER_INTERFACE_IDIOM()!=UIUserInterfaceIdiomPad){
